@@ -18,6 +18,9 @@ The number of buckets is tunable, but defaults to 2 x number of cpus.
 Benchmarking has shown improvement, depending on hardware and setup, from ~30%
 to ~100%.
 
+During this effort several vnet-related issues were fixed as well, and a basic
+pfsync test case was added.
+
 This was committed into head in r341646, and later merged into stable/12 and stable/11.
 
 The work was sponsored by Orange Business Services.
